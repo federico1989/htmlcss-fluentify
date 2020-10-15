@@ -156,3 +156,55 @@ body {
   color: grey;
 }
 /* /main text*/
+/* first row */
+.row {
+  height: calc(1000px -150px);
+
+}
+.row::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.col_top {
+  text-align: center;
+  width: 31%;
+  padding: 2%;
+}
+.col_bottom {
+  width: 50%;
+}
+.logo_ct {
+  height: 150px;
+  weight: 150px;
+}
+.col_top h2 {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #7CBB02;;
+}
+.hr_top {
+  margin: 20px 40%;
+  width: 20%;
+}
+.long_hr {
+  margin-bottom: 60px;
+}
+/* /first row */
+/* second row */
+.image_mountain {
+  width: 80%;
+  text-align: left;
+}
+.col_bottom {
+  text-align: left;
+}
+.col_bottom h2 p a {
+  margin-bottom: 20px;
+}
+/* /second row */
+/* /main*/
+/* footer */
+footer {
+  width: auto;
+}
